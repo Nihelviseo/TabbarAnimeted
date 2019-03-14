@@ -14,6 +14,19 @@
 		E139985F22326DA1008E78A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E139985D22326DA1008E78A2 /* LaunchScreen.storyboard */; };
 		E139986A22326DA1008E78A2 /* applicationtestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E139986922326DA1008E78A2 /* applicationtestTests.swift */; };
 		E139987522326DA1008E78A2 /* applicationtestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E139987422326DA1008E78A2 /* applicationtestUITests.swift */; };
+		E139988422326E6C008E78A2 /* StaticTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E139988222326E6C008E78A2 /* StaticTableViewCell.swift */; };
+		E139988522326E6C008E78A2 /* StaticTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E139988322326E6C008E78A2 /* StaticTableViewCell.xib */; };
+		E139988F22328D3E008E78A2 /* Headline.swift in Sources */ = {isa = PBXBuildFile; fileRef = E139988E22328D3E008E78A2 /* Headline.swift */; };
+		E139989922329D8A008E78A2 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E139989722329D8A008E78A2 /* SecondViewController.swift */; };
+		E139989A22329D8A008E78A2 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E139989822329D8A008E78A2 /* SecondViewController.xib */; };
+		E139989D2232A0E9008E78A2 /* FisrtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E139989B2232A0E9008E78A2 /* FisrtViewController.swift */; };
+		E139989E2232A0E9008E78A2 /* FisrtViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E139989C2232A0E9008E78A2 /* FisrtViewController.xib */; };
+		E1A7344F2237B87C00B54EDF /* SwipeableTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A7344E2237B87C00B54EDF /* SwipeableTabBarController.swift */; };
+		E1A734512237B8D800B54EDF /* SwipeTransitioningProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A734502237B8D800B54EDF /* SwipeTransitioningProtocol.swift */; };
+		E1A734532237B90B00B54EDF /* SwipeAnimationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A734522237B90B00B54EDF /* SwipeAnimationType.swift */; };
+		E1A734552237B94000B54EDF /* SwipeTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A734542237B94000B54EDF /* SwipeTransitionAnimator.swift */; };
+		E1A734572237B97F00B54EDF /* SwipeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A734562237B97F00B54EDF /* SwipeInteractor.swift */; };
+		E1A734592237C19A00B54EDF /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A734582237C19A00B54EDF /* TabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +60,19 @@
 		E139987022326DA1008E78A2 /* applicationtestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = applicationtestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E139987422326DA1008E78A2 /* applicationtestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = applicationtestUITests.swift; sourceTree = "<group>"; };
 		E139987622326DA1008E78A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E139988222326E6C008E78A2 /* StaticTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticTableViewCell.swift; sourceTree = "<group>"; };
+		E139988322326E6C008E78A2 /* StaticTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StaticTableViewCell.xib; sourceTree = "<group>"; };
+		E139988E22328D3E008E78A2 /* Headline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Headline.swift; sourceTree = "<group>"; };
+		E139989722329D8A008E78A2 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		E139989822329D8A008E78A2 /* SecondViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		E139989B2232A0E9008E78A2 /* FisrtViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FisrtViewController.swift; sourceTree = "<group>"; };
+		E139989C2232A0E9008E78A2 /* FisrtViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FisrtViewController.xib; sourceTree = "<group>"; };
+		E1A7344E2237B87C00B54EDF /* SwipeableTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeableTabBarController.swift; sourceTree = "<group>"; };
+		E1A734502237B8D800B54EDF /* SwipeTransitioningProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeTransitioningProtocol.swift; sourceTree = "<group>"; };
+		E1A734522237B90B00B54EDF /* SwipeAnimationType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeAnimationType.swift; sourceTree = "<group>"; };
+		E1A734542237B94000B54EDF /* SwipeTransitionAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeTransitionAnimator.swift; sourceTree = "<group>"; };
+		E1A734562237B97F00B54EDF /* SwipeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeInteractor.swift; sourceTree = "<group>"; };
+		E1A734582237C19A00B54EDF /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TabBarController.swift; path = applicationtest/TabBarController.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +123,20 @@
 		E139985322326DA0008E78A2 /* applicationtest */ = {
 			isa = PBXGroup;
 			children = (
+				E139989022329006008E78A2 /* SwipeableTabBarController */,
 				E139985422326DA0008E78A2 /* AppDelegate.swift */,
 				E139985622326DA0008E78A2 /* ViewController.swift */,
 				E139985822326DA0008E78A2 /* Main.storyboard */,
 				E139985B22326DA1008E78A2 /* Assets.xcassets */,
 				E139985D22326DA1008E78A2 /* LaunchScreen.storyboard */,
 				E139986022326DA1008E78A2 /* Info.plist */,
+				E139988222326E6C008E78A2 /* StaticTableViewCell.swift */,
+				E139988322326E6C008E78A2 /* StaticTableViewCell.xib */,
+				E139988E22328D3E008E78A2 /* Headline.swift */,
+				E139989722329D8A008E78A2 /* SecondViewController.swift */,
+				E139989822329D8A008E78A2 /* SecondViewController.xib */,
+				E139989B2232A0E9008E78A2 /* FisrtViewController.swift */,
+				E139989C2232A0E9008E78A2 /* FisrtViewController.xib */,
 			);
 			path = applicationtest;
 			sourceTree = "<group>";
@@ -123,6 +157,19 @@
 				E139987622326DA1008E78A2 /* Info.plist */,
 			);
 			path = applicationtestUITests;
+			sourceTree = "<group>";
+		};
+		E139989022329006008E78A2 /* SwipeableTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				E1A734582237C19A00B54EDF /* TabBarController.swift */,
+				E1A734502237B8D800B54EDF /* SwipeTransitioningProtocol.swift */,
+				E1A7344E2237B87C00B54EDF /* SwipeableTabBarController.swift */,
+				E1A734522237B90B00B54EDF /* SwipeAnimationType.swift */,
+				E1A734542237B94000B54EDF /* SwipeTransitionAnimator.swift */,
+				E1A734562237B97F00B54EDF /* SwipeInteractor.swift */,
+			);
+			path = SwipeableTabBarController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +196,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E139987C22326DA1008E78A2 /* Build configuration list for PBXNativeTarget "applicationtestTests" */;
 			buildPhases = (
+				F581CBD406F66A84822D0420 /* [CP] Check Pods Manifest.lock */,
 				E139986122326DA1008E78A2 /* Sources */,
 				E139986222326DA1008E78A2 /* Frameworks */,
 				E139986322326DA1008E78A2 /* Resources */,
@@ -167,6 +215,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E139987F22326DA1008E78A2 /* Build configuration list for PBXNativeTarget "applicationtestUITests" */;
 			buildPhases = (
+				EC9D1A0C25C5D70277FCE43F /* [CP] Check Pods Manifest.lock */,
 				E139986C22326DA1008E78A2 /* Sources */,
 				E139986D22326DA1008E78A2 /* Frameworks */,
 				E139986E22326DA1008E78A2 /* Resources */,
@@ -230,8 +279,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E139985F22326DA1008E78A2 /* LaunchScreen.storyboard in Resources */,
+				E139989E2232A0E9008E78A2 /* FisrtViewController.xib in Resources */,
+				E139989A22329D8A008E78A2 /* SecondViewController.xib in Resources */,
 				E139985C22326DA1008E78A2 /* Assets.xcassets in Resources */,
 				E139985A22326DA0008E78A2 /* Main.storyboard in Resources */,
+				E139988522326E6C008E78A2 /* StaticTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +303,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		EC9D1A0C25C5D70277FCE43F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-applicationtestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F581CBD406F66A84822D0420 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-applicationtestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E139984D22326DA0008E78A2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E139989922329D8A008E78A2 /* SecondViewController.swift in Sources */,
+				E1A734572237B97F00B54EDF /* SwipeInteractor.swift in Sources */,
 				E139985722326DA0008E78A2 /* ViewController.swift in Sources */,
+				E139988422326E6C008E78A2 /* StaticTableViewCell.swift in Sources */,
+				E139989D2232A0E9008E78A2 /* FisrtViewController.swift in Sources */,
+				E1A734532237B90B00B54EDF /* SwipeAnimationType.swift in Sources */,
+				E1A734512237B8D800B54EDF /* SwipeTransitioningProtocol.swift in Sources */,
+				E1A734552237B94000B54EDF /* SwipeTransitionAnimator.swift in Sources */,
+				E1A7344F2237B87C00B54EDF /* SwipeableTabBarController.swift in Sources */,
+				E1A734592237C19A00B54EDF /* TabBarController.swift in Sources */,
 				E139985522326DA0008E78A2 /* AppDelegate.swift in Sources */,
+				E139988F22328D3E008E78A2 /* Headline.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
