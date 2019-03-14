@@ -33,6 +33,7 @@ class ViewController: UIViewController, UITableViewDelegate ,UITableViewDataSour
         tableView.register(UINib(nibName: "StaticTableViewCell", bundle: nil), forCellReuseIdentifier: "mycell")
 
         tableView.dataSource = self
+         print("test test test s")
     }
     
 
