@@ -24,8 +24,8 @@ class ViewController: UIViewController, UITableViewDelegate ,UITableViewDataSour
         Headline(id: 4, title: "Forfait", text: "Pass 1 jour,3 jours ou 7 jours", image: "transport.png"),
         Headline(id: 5, title: "Ticket 10 Voyages", text: "Pour soi ou à partager", image: "transport.png"),
         Headline(id: 6, title: "Ticket 10 Voyages", text: "Pour soi ou à partager", image: "transport.png"),
+        Headline(id: 7, title: "Ticket 10 Voyages", text: "Pour soi ou à partager", image: "transport.png"),
 
-        
         ]
     
 
@@ -35,7 +35,6 @@ class ViewController: UIViewController, UITableViewDelegate ,UITableViewDataSour
         tableView.register(UINib(nibName: "StaticTableViewCell", bundle: nil), forCellReuseIdentifier: "mycell")
 
         tableView.dataSource = self
-         print("test test test s")
     }
     
 
