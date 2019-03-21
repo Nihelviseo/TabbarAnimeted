@@ -27,6 +27,10 @@
 		E1A734552237B94000B54EDF /* SwipeTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A734542237B94000B54EDF /* SwipeTransitionAnimator.swift */; };
 		E1A734572237B97F00B54EDF /* SwipeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A734562237B97F00B54EDF /* SwipeInteractor.swift */; };
 		E1A734592237C19A00B54EDF /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A734582237C19A00B54EDF /* TabBarController.swift */; };
+		E1F6E3CE223FA41A00E5B48F /* FaceDetectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F6E3CA223FA41A00E5B48F /* FaceDetectionViewController.swift */; };
+		E1F6E3CF223FA41A00E5B48F /* FaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F6E3CB223FA41A00E5B48F /* FaceView.swift */; };
+		E1F6E3D0223FA41A00E5B48F /* Extensions in Resources */ = {isa = PBXBuildFile; fileRef = E1F6E3CC223FA41A00E5B48F /* Extensions */; };
+		E1F6E3D1223FA41A00E5B48F /* LaserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F6E3CD223FA41A00E5B48F /* LaserView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +77,10 @@
 		E1A734542237B94000B54EDF /* SwipeTransitionAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeTransitionAnimator.swift; sourceTree = "<group>"; };
 		E1A734562237B97F00B54EDF /* SwipeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeInteractor.swift; sourceTree = "<group>"; };
 		E1A734582237C19A00B54EDF /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TabBarController.swift; path = applicationtest/TabBarController.swift; sourceTree = SOURCE_ROOT; };
+		E1F6E3CA223FA41A00E5B48F /* FaceDetectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceDetectionViewController.swift; sourceTree = "<group>"; };
+		E1F6E3CB223FA41A00E5B48F /* FaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceView.swift; sourceTree = "<group>"; };
+		E1F6E3CC223FA41A00E5B48F /* Extensions */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Extensions; sourceTree = "<group>"; };
+		E1F6E3CD223FA41A00E5B48F /* LaserView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaserView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +131,10 @@
 		E139985322326DA0008E78A2 /* applicationtest */ = {
 			isa = PBXGroup;
 			children = (
+				E1F6E3CC223FA41A00E5B48F /* Extensions */,
+				E1F6E3CA223FA41A00E5B48F /* FaceDetectionViewController.swift */,
+				E1F6E3CB223FA41A00E5B48F /* FaceView.swift */,
+				E1F6E3CD223FA41A00E5B48F /* LaserView.swift */,
 				E139989022329006008E78A2 /* SwipeableTabBarController */,
 				E139985422326DA0008E78A2 /* AppDelegate.swift */,
 				E139985622326DA0008E78A2 /* ViewController.swift */,
@@ -283,6 +295,7 @@
 				E139989A22329D8A008E78A2 /* SecondViewController.xib in Resources */,
 				E139985C22326DA1008E78A2 /* Assets.xcassets in Resources */,
 				E139985A22326DA0008E78A2 /* Main.storyboard in Resources */,
+				E1F6E3D0223FA41A00E5B48F /* Extensions in Resources */,
 				E139988522326E6C008E78A2 /* StaticTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -362,9 +375,12 @@
 				E139989D2232A0E9008E78A2 /* FisrtViewController.swift in Sources */,
 				E1A734532237B90B00B54EDF /* SwipeAnimationType.swift in Sources */,
 				E1A734512237B8D800B54EDF /* SwipeTransitioningProtocol.swift in Sources */,
+				E1F6E3D1223FA41A00E5B48F /* LaserView.swift in Sources */,
 				E1A734552237B94000B54EDF /* SwipeTransitionAnimator.swift in Sources */,
 				E1A7344F2237B87C00B54EDF /* SwipeableTabBarController.swift in Sources */,
+				E1F6E3CF223FA41A00E5B48F /* FaceView.swift in Sources */,
 				E1A734592237C19A00B54EDF /* TabBarController.swift in Sources */,
+				E1F6E3CE223FA41A00E5B48F /* FaceDetectionViewController.swift in Sources */,
 				E139985522326DA0008E78A2 /* AppDelegate.swift in Sources */,
 				E139988F22328D3E008E78A2 /* Headline.swift in Sources */,
 			);

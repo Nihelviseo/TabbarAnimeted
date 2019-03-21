@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+import UserNotifications
 class ViewController: UIViewController, UITableViewDelegate ,UITableViewDataSource {
     
     
@@ -16,7 +16,7 @@ class ViewController: UIViewController, UITableViewDelegate ,UITableViewDataSour
     
     @IBOutlet weak var tabBar: UITabBar!
     
-
+    
     var headlines = [
         Headline(id: 1, title: "Reservation", text: "Place garantie à board", image: "transport.png"),
         Headline(id: 2, title: "Ticket à l'unité", text: "allez simple ou allez retour.", image: "transport.png"),
@@ -33,8 +33,20 @@ class ViewController: UIViewController, UITableViewDelegate ,UITableViewDataSour
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         tableView.register(UINib(nibName: "StaticTableViewCell", bundle: nil), forCellReuseIdentifier: "mycell")
-
         tableView.dataSource = self
+        
+        let content = UNMutableNotificationContent()
+        content.title = "title"
+        content.body = "body"
+        content.sound = UNNotificationSound.default
+        
+        let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 5, repeats: false)
+        
+        let request = UNNotificationRequest(identifier: "testIdentifier", content: content, trigger: trigger)
+        UNUserNotificationCenter.current().add(request) { (nil) in
+            
+        }
+        
     }
     
 
